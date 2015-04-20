@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="3.4">
+	<name>JoomTools - Library</name>
+	<libraryname>jt</libraryname>
+	<author>Guido De Gobbis</author>
+	<authorEmail>guido.de.gobbis@joomtools.de</authorEmail>
+	<authorUrl>http://joomtools.de</authorUrl>
+	<copyright>Copyright (C) 2015 Guido De Gobbis - JoomTools. All rights reserved.</copyright>
+	<creationDate>Aprin 2015</creationDate>
+	<license>GNU General Public License version 3 or later; see	LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>JoomTools library for Joomla!</description>
+	<files>
+		<folder>application</folder>
+		<folder>debug</folder>
+		<folder>document</folder>
+		<folder>form</folder>
+		<folder>html</folder>
+		<filename>library.php</filename>
+		<filename>LICENSE</filename>
+	</files>
+
+	<!-- Medias -->
+	<media destination="libjt" folder="media">
+		<folder>js</folder>
+	</media>
+</extension>
