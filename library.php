@@ -16,6 +16,7 @@ JLoader::setup();
 // Global libraries autoloader
 JLoader::registerPrefix('LibJT', dirname(__FILE__));
 JLoader::register('JDocumentHTML', dirname(__FILE__) . '/document/html/html.php');
+JLoader::register('JHttpTransportCurl', dirname(__FILE__) . '/http/transport/curl.php');
 
 // Common fields
 JFormHelper::addFieldPath(dirname(__FILE__) . '/form/fields');

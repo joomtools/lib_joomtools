@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="library" method="upgrade" version="3.4">
 	<name>JoomTools - Library</name>
-	<libraryname>jt</libraryname>
+	<libraryname>libjt</libraryname>
 	<author>Guido De Gobbis</author>
 	<authorEmail>guido.de.gobbis@joomtools.de</authorEmail>
 	<authorUrl>http://joomtools.de</authorUrl>
@@ -16,6 +16,7 @@
 		<folder>document</folder>
 		<folder>form</folder>
 		<folder>html</folder>
+		<folder>http</folder>
 		<filename>library.php</filename>
 		<filename>LICENSE</filename>
 	</files>
