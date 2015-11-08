@@ -128,12 +128,7 @@ class JFormFieldRepeatable extends JFormField
         // Add scripts
         JHtml::_('bootstrap.framework');
         JHtml::_('libjt.repeatable');
-        //JHtml::_('script', 'joomtools/repeatable.js', false, true);
-/*
-        $document = JFactory::getDocument();
-        $baseUri = rtrim(JUri::base(true), '/administrator/');
-        $document->addScript($baseUri.'/plugins/system/jtanimsition/library/repeatable-uncompressed.js');
-*/
+
         return implode("\n", $str);
     }
 }
