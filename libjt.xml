@@ -11,8 +11,6 @@
 	<version>1.0.0</version>
 	<description>JoomTools library for Joomla!</description>
 	<files>
-		<folder>application</folder>
-		<folder>debug</folder>
 		<folder>document</folder>
 		<folder>form</folder>
 		<folder>html</folder>

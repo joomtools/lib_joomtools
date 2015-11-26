@@ -11,7 +11,6 @@ defined('_JEXEC') or die;
 
 // Ensure that autoloaders are set
 JLoader::setup();
-//JLoader::register('JTDebug', dirname(__FILE__) . '/debug/jtdebug.php');
 
 // Global libraries autoloader
 JLoader::registerPrefix('LibJT', dirname(__FILE__));
